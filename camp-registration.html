@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Camp Registration</title>
+</head>
+<body>
+    <h1>Summer Camp Registration</h1>
+    <Form>
+        <!-- Here the user will fill out their name, email, and password for enrolling in the camp. -->
+        <div>
+            <label for="first">First Name</label>
+            <input type="text" name="firstname" id="first" required>
+            <label for="last">Last Name</label>
+            <input type="text" name="lastname" id="first" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <!-- Here the user will  fill out which month they would like to attend-->
+        <p>Select a month:</p>
+        <div>
+            <input type="radio" name="month" value="june" id="june">
+            <label for="june">June</label>
+        </div>
+        <div>
+            <input type="radio" name="month" value="july" id="july">
+            <label for="july">July</label>
+        </div>
+        <div>
+            <input type="radio" name="month" value="august" id="august">
+            <label for="august">August</label>
+        </div>
+        <br>
+        <!-- Here the user will select their age group -->
+        <label for="age">Select Age Group:</label>
+        <select name=age id="age">
+            <option value="kids">under 18</option>
+            <option value="youngadult">18-30</option>
+            <option value="adults">30-50</option>
+            <option value="seniors">50+</option>
+        </select>
+        <br>
+        <br>
+        <button>Register</button>
+    </form>
+
+</body>
+</html>
+
+<!-- With this project I learned a lot about making labels instead of using <p> tags. I never really knew much about how screen readers worked but I am glad I know now that using tags makes it easy for the screen reader to tell that the form has labels not just random words all over the place. I feel like this project gave a lot of practice on how to use the <input> tag. I also learned that you can use <div> to separate out various sections. For example, in the month buttons, you can use <div> to separate out the buttons. -->
