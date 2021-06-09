@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Service</title>
+</head>
+<body>
+    <h1>Hotel Room Service</h1>
+    <h3>Welcome to our hotel! We hope you enjoy your stay.</h3>
+    <p>
+        We value you as our guest! Use this online form to have a hot, delicious breakfast delivered to your room. Please fill out this form before midnight so that we can make proper accommodations. All meals are served before 10AM. Tipping is encouraged.
+    </p>
+    <form>
+        <fieldset>
+            <legend>Hotel Guest Contact Info</legend>
+            <div>
+                <label for="firstname">First name:</label>
+                <input type="text" name="first" id="firstname">
+            </div>
+            <br>
+            <div>
+                <label for="lastname">Last name:</label>
+                <input type="text" name="last" id="lastname">
+            </div>
+            <br>
+            <div>
+                <label for="room">Room number:</label>
+                <input type="text" name="roomnumber" id="room">
+            </div>
+        </fieldset>
+    <br>
+    <div>
+        <label for="time">What time would you like to be served?</label>
+        <select name="time" id="time">
+            <option value="6am">6AM</option>
+            <option value="7am">7AM</option>
+            <option value="8am">8AM</option>
+            <option value="9am">9AM</option>
+            <option value="10am">10AM</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="entree">Please choose your entree:</label>
+        <br>
+        <br>
+        <select name="entree" id="entree" size="5" multiple>
+            <option value="waffles_n_chicken">Waffles and Chicken</option>
+            <option value="pancakes">Pancakes and syrup</option>
+            <option value="hash">Hash browns</option>
+            <option value="bacon_n_eggs">Bacon & Eggs</option>
+            <option value="toast">Boring ol' toast</option>
+            <option value=""></option>
+        </select>
+    </div>
+    <div>
+        <p>Would you like extra butter?</p>
+        <input type="checkbox" name="yesbutter" id="butteryes">
+        <label for="butteryes">Yes</label>
+        <input type="checkbox" name="nobutter" id="butterno">
+        <label for="butterno">No</label>
+        <input type="checkbox" name="surprisebutter" id="buttersurprise">
+        <label for="buttersurprise">Surprise me</label>
+    </div>
+    <br>
+    <button>Submit</button>
+    </form>
+</body>
+</html>
