@@ -1,0 +1,28 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#whole {
+    display: block;
+    margin: auto;
+    width: 700px;
+    position: relative;
+}
+
+#text-box {
+    background-color: black;
+    opacity: 60%;
+    padding: 15px 20px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.text {
+    color: white;
+    opacity: 100%;
+}
+
+img {
+    width: 700px;
+    height: auto;
+}
