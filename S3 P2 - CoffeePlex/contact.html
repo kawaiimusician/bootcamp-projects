@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d398b90edf.js" crossorigin="anonymous"></script>
+    <title>CoffeePlex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <i class="fas fa-coffee nav-icon"></i>
+            <a class="navbar-brand" href="index.html">Coffeeplex</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="background3">
+        <div id="message">
+            <h1>Wisdom through adversity. Unity through purpose.</h1>
+            <a href="#" class="btn btn-lg btn-success">Login</a>
+            <a href="#" class="btn btn-lg btn-success">Register</a>
+        </div>
+    </div>
+
+    <!-- form -->
+    <div class="container section">
+        <div class="row">
+            <div class="col-sm-6">
+                <form>
+                    <div class="form-group">
+                        <label for="theName">Name</label>
+                        <input type="text" placeholder="Your name" id="theName" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="theEmail">Email Address</label>
+                        <input type="email" placeholder="Enter email" id="theEmail" class="form-control">
+                        <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="shareText">What would you like to share with us?</label>
+                        <textarea class="form-control" id="shareText" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="fileUpload">File input</label>
+                        <input type="file" class="form-control" id="fileUpload">
+                        <small class="form-text text-muted">You can upload images of PDF files if necessary.</small>
+                    </div>
+                    <fieldset class="form-group">
+                        <legend>Are you a current user?</legend>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="yesInput" checked>
+                            <label for="yesInput" class="form-check-label">Yes, I am.</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="noInput">
+                            <label for="noInput" class="form-check-label">Not yet, but I will be soon. I promise.</label>
+                        </div>
+                        <div class="form-group pt-4">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="robot">
+                                <label for="robot" class="form-check-label">
+                                    I am not a robot.
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-6">
+                <h2>We really want to hear from you.</h2>
+                <p class="lead">Your feedback is important to us. We are continuously improving our products, and your data helps us to make those improvements.</p>
+                <p>Please be patient with us as we are currently revamping our system. If you do not receive a response within 48 hours, it means we are too busy to reply to your complaints.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer id="the-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <i class="fas fa-coffee footericon"></i> <br><br><br>
+                </div>
+                <div class="col-md-2">
+                    <h6>Product</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Content</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Photos</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6>Help</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Basics</a></li>
+                        <li><a href="#">User Agreement</a></li>
+                        <li><a href="#">Content Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6>Menu</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

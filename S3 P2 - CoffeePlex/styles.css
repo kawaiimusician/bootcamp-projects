@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+#background1 {
+    background: url(assets/Backgrounds/background1.jpg) center center no-repeat;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#background2 {
+    background: url(assets/Backgrounds/background2.jpg);
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#background3 {
+    background: url(assets/Backgrounds/background3.jpg);
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#message {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#message h1 {
+    font-size: 54px;
+    color: white;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black;
+    text-transform: uppercase;
+}
+
+.nav-icon {
+    color: #fd7e14;
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+#the-footer {
+    background: #263238;
+    color: white;
+    padding: 50px 0;
+    font-size: 13px;
+}
+
+#the-footer h6 {
+    color: #1e88e5;
+}
+
+#the-footer a {
+    color: #cfd8dc;
+    text-decoration: none;
+}
+
+.footericon {
+    font-size: 96px;
+    color: #fd7e14;
+}
+
+/* About Page */
+.section {
+    padding: 112px 0px;
+    overflow: hidden;
+}
+
+.middle {
+    background: #262f36;
+    color: white;
+}
+
+.middle h2 {
+    color: #cfd8dc;
+}
+
+/* Contact page */
+.form-group {
+    margin: 20px 0px;
+}
