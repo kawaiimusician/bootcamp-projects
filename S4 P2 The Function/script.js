@@ -10,9 +10,16 @@ function numbers(){
     var number1 = Number(number1);
     var number2 = Number(number2);
     var sumOfNumb = number1 + number2;
-    numberCombo = `<p>By the way, the sum of your numbers is ${sumOfNumb}.</p>`;
-    return numberCombo
+    return sumOfNumb
 }
 
-document.write(greeting());
-document.write(numbers());
+greetFinish = greeting();
+number = numbers()
+numbFinish = `By the way, the sum of your numbers is ${number}`;
+
+if (isNaN(number)) {
+    document.write("Please reload and try again with a real number.")
+} else {
+    document.write(greetFinish);
+    document.write(numbFinish);
+}
