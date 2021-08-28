@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.midSection {
+    background-color: #eeeeee;
+    height: 24vh;
+    padding: 2vh 40vh 4vh;
+}
+
+.midSection h1 {
+    font-size: 60px;
+}
+
+.breadcrumb {
+    background-color: #eeeeee;
+    margin-top: 3vh;
+    padding: 1vh;
+}
+
+li a {
+    text-decoration: none;
+    color: #4d7cb8;
+}
