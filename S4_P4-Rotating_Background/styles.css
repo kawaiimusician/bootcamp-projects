@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+p {
+    font-size: 54px;
+    width: 900px;
+    margin: auto;
+    margin-top: 250px;
+    text-align: center;
+    color: white;
+}
+
+.homeBackground {
+    background: url(assets/background1.jpg) center center no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}

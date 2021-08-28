@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background: #eaf0f2;
+}
+
+#logo {
+    font-size: 42px;
+    padding: 15px 35px;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    line-height: 35px;
+}
+
+#logo-font {
+    margin: 0px 5px 0px 0px;
+}
+
+button {
+    list-style-type: none;
+    display: inline;
+    padding: 20px 15px 18px;
+    outline: none;
+    color: #eaf0f2;
+    background: #263238;
+    font-size: 25px;
+}
+
+#nav-bar {
+    font-size: 25px;
+    height: 75px;
+    background: #263238;
+    color: #eaf0f2;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    background-color: #263238;
+    height: 45px;
+    line-height: 45px;
+    min-width: max-content;
+}
+
+#contact-dropdown {
+    min-width: 110px;
+}
+
+.dropdown-content a {
+    color: #eaf0f2;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    background-color: #263238;
+}
+
+.dropdown-content a:hover {
+    background-color: #546e7a;
+}
+
+.dropdown:hover .dropdown-content {
+    visibility: visible;
+    transition: 0.6s ease-out;
+    opacity: 1;
+}
+
+.drop-button:hover {
+    background-color: #546e7a;
+}
+
+.mid-text-area {
+    margin: 25px;
+}
+
+.mid-text-area h1 {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: #263238;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 75px;
+    padding: 50px;
+}
+
+.footer h1 {
+    color: #B0BEC5;
+    margin-bottom: 25px;
+}
+
+.footer a {
+    color: #eaf0f2;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.footer p {
+    color: #B0BEC5;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.footer a:hover {
+    color: #cfd8dc;
+}
+
+input[type="button"] {
+    border: 1px black solid;
+    padding: 10px;
+    background-color: lightgray;
+}

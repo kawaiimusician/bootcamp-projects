@@ -1,0 +1,14 @@
+{
+  "name": "hearts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rebecca",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-heart": "^2.0.0"
+  }
+}
