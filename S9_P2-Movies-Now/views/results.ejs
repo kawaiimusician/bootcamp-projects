@@ -1,0 +1,19 @@
+<%- include('partials/header.ejs') %> 
+
+    <h1>Now playing in theaters near you!</h1>
+    <% movies.forEach(el => { %>
+        <div class="movieTicket">
+            <div class="movieCard">
+                <div class="movieInfo">
+                    <h3><%= el.title %></h3>
+                    <p><%= el.overview %></p>
+                    <p>Rating: <%= el.vote_average %> out of 10 stars</p>
+                </div>
+                <% let path = el.poster_path %> 
+                <% let imgSrc = `https://image.tmdb.org/t/p/w500${path}` %> 
+                <img src="<%= imgSrc %>" alt="Movie Poster" class="moviePoster">
+            </div>
+        </div>
+    <% }) %>
+
+<%- include('partials/footer.ejs') %> 

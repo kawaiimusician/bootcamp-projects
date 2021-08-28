@@ -1,0 +1,15 @@
+<%- include('partials/header') %> 
+
+    <h1>&#8383;itCoin Price App</h1>
+    <form action="/results" method="GET">
+        <input type="radio" id="usd" name="currency" value="usd" checked>
+        <label for="usd">USD</label>
+        <input type="radio" id="gbp" name="currency" value="gbp">
+        <label for="gbp">GBP</label>
+        <input type="radio" id="eur" name="currency" value="eur">
+        <label for="eur">EUR</label>
+        <div>
+            <button type="submit">Get Price</button>
+        </div>
+    </form>
+<%- include('partials/footer') %> 

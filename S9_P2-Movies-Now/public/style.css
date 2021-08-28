@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+}
+
+#home-background {
+    background: url(assets/ticket-2974645_1920.jpg) center center no-repeat;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#message {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+#movieButton {
+    background-image: linear-gradient(rgb(255, 190, 71), orange);
+    border: none;
+    border-radius: 5px;
+    height: 5vh;
+    width: 15vw;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+}
+
+.movieTicket {
+    background: url(assets/coupon-1828620_1280.png) center center no-repeat;
+}
+
+.movieCard {
+    margin: 5% 20%;
+    padding: 20% 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.moviePoster {
+    box-shadow: 7px 7px black;
+}
+
+.movieInfo {
+    background: white;
+    border-radius: 15%;
+    margin-bottom: 10%;
+    padding: 5%;
+}

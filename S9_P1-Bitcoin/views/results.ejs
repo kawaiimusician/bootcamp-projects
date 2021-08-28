@@ -1,0 +1,39 @@
+<%- include('partials/header') %> 
+
+    <h1>&#8383;itCoin Price App</h1>
+    <form action="/results" method="GET">
+        <!-- USD -->
+        <input type="radio" id="usd" name="currency" value="usd" <% if(currencyQuery == 'usd'){ %>
+            checked 
+        <%} %> >
+        <label for="usd">USD</label>
+        <!-- GBP -->
+        <input type="radio" id="gbp" name="currency" value="gbp" <% if(currencyQuery == 'gbp'){ %>
+            checked
+        <%} %> >
+        <label for="gbp">GBP</label>
+        <!-- EUR -->
+        <input type="radio" id="eur" name="currency" value="eur"<% if(currencyQuery == 'eur'){ %>
+            checked 
+        <%} %> >
+        <label for="eur">EUR</label>
+        <div>
+            <button type="submit">Get Price</button>
+        </div>
+    </form>
+    <h2>This is the current price:</h2>
+    <div class="price">
+        <% function priceFix(num) { %>
+            <% let numLength = num.length - 2 %>
+            <% let finalNum = num.substring(0, numLength) %> 
+            <% return finalNum %> 
+        <%} %> 
+        <% if (currencyQuery == 'usd'){ %>
+            <p>&#36;<%= priceFix(data.bpi.USD.rate) %></p>
+        <% } else if (currencyQuery == 'gbp') { %>
+            <p>&#163;<%= priceFix(data.bpi.GBP.rate) %></p>
+        <% } else if (currencyQuery == 'eur') { %>
+            <p>&euro;<%= priceFix(data.bpi.EUR.rate) %></p>
+        <% } %>
+    </div>
+<%- include('partials/footer') %> 
